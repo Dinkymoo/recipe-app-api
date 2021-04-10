@@ -1,0 +1,28 @@
+{
+    "python.pythonPath": ".venv/bin/python3",
+    "editor.formatOnSave": true,
+    "cornflakes.linter.executablePath": ".venv/bin/flake8",
+    "python.linting.flake8Path": ".venv/bin/flake8",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8CategorySeverity.E": "Error",
+    "python.linting.flake8CategorySeverity.F": "Error",
+    "python.linting.flake8CategorySeverity.W": "Error",
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ],
+    "python.linting.flake8Args": [
+        "--config=./app/.flake8",
+        "--verbose"
+    ],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        },
+    ],
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+}
